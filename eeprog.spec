@@ -29,3 +29,6 @@ install -m755 eeprog %{buildroot}/%{_bindir}
 %attr(0755,root,root) %{_bindir}/*
 
 %changelog
+* Fri Dec 23 2016 Michal Gawlik <michal.gawlik@thalesgroup.com> 0.7.6-1
+- new package built with tito
+
